@@ -15,17 +15,8 @@ body {
 }
 
 
-
-.footer {
-	position: fixed;
-	bottom: 0px;
-	width: 100%;
-	min-height: 25px;
-	background-color: #222940;
-	color: white;
-	color: white;
-	font-size: 12px;
-
+div {
+	border: 2px solid black;
 }
 
 
@@ -55,19 +46,6 @@ body {
 
 
 
-.side-selector-left ul {
-	list-style-type: none;
-	font-size: 25px;
-	cursor: pointer;
-	margin: 0px;
-	padding: 0px;
-	line-height: 1.3em;
-	text-decoration: none;
-}
-
-.side-selector-left ul li:hover {
-
-}
 
 .select-indicator {
 	width: 4px;
@@ -158,51 +136,8 @@ body {
 
 
 
-.article {
-	width: 100%;
-	min-height: 25px;
-	background-color: white;
-	border-radius: 5px;
-	margin-bottom: 5px;
-	padding: 8px;
-	text-transform: none;
-	font-family: Helvetica, Arial, sans-serif;
-	color: #222940;
-	position: relative;
-	text-align: left;
-	
-}
 
-.article .article-title {
-	float: left;
-	font-size: 30px;
-}
 
-.article-body {
-	min-height: 40px;
-	display: none;
-}
-
-.article-header {
-	display: block;
-}
-
-.expand-option {
-	display: '';
-}
-
-.collapse-option {
-	display: none;
-}
-
-.article .expand-option {
-
-	font-size: 12px;
-	position: absolute;
-   	bottom: 2px;
-   	right: 2px;
-   	cursor: pointer;
-}
 
 .main .center-container .section-header {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
