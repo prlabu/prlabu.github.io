@@ -146,17 +146,20 @@ a:focus {
   padding: 1em;
   border-top-left-radius: 5px;
   border-top-right-radius: 9px;
+  background-color: #f2f2f2;
+  color:black;
 }
 
 .intro .intro-body .container .main-loc-container .row {
   margin-left: 0px;
   margin-right: 0px;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid black;
 }
 
 .main-loc-container .location {
   text-align: left;
-  padding: .5em;
+  padding: none;
+  padding-top: .5em;
   font-size: 26px;
 }
 
@@ -164,8 +167,12 @@ a:focus {
   float: right;
 }
 
+.main-loc-container .location .ranking{
+  font-size: 14px;
+}
+
 .intro .intro-body .intro-text {
-  font-size: 18px;
+  font-size: 14px;
 }
 
 @media (min-width: 768px) {
@@ -175,11 +182,11 @@ a:focus {
   }
   .intro .intro-body .brand-heading {
     font-size: 35px;
-  }
-  .intro .intro-body .intro-text {
-    font-size: 26px;
+    margin-bottom: 0.1em;
   }
 }
+
+
 .btn-circle {
   width: 70px;
   height: 70px;
@@ -286,8 +293,9 @@ a:focus {
 }
 .btn-default {
   border: none;
-  color: white;
+  color: black;
   background-color: transparent;
+  padding: 5px 10px;
 }
 
 .btn-default:hover,
