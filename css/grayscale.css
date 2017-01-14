@@ -45,6 +45,7 @@ a {
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
+
 a:hover,
 a:focus {
   text-decoration: none;
@@ -162,6 +163,12 @@ a:focus {
   padding: none;
   padding-top: .5em;
   font-size: 26px;
+}
+
+@media (min-width: 768px) {
+  .main-loc-container .location {
+    font-size: 16px;
+  }
 }
 
 .main-loc-container .location .voting{
