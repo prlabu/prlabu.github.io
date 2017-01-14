@@ -162,12 +162,12 @@ a:focus {
   text-align: left;
   padding: none;
   padding-top: .5em;
-  font-size: 26px;
+  font-size: 16px;
 }
 
 @media (min-width: 768px) {
   .main-loc-container .location {
-    font-size: 16px;
+    font-size: 26px;
   }
 }
 
