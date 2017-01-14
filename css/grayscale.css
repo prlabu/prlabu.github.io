@@ -146,8 +146,7 @@ a:focus {
 .intro .intro-body .container .main-loc-container{
   border: 2px solid white !important ;
   padding: 1em;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 9px;
+  border-radius: 9px;
   background-color: #F2F8F8;
   color:black;
 }
