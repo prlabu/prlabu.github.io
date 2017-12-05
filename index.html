@@ -44,10 +44,11 @@
                     FB.getLoginStatus(function(response) {
                         if (response.status === 'connected') {
                             console.log('Logged in.');
-                            $("#status").html("<p> You're already logged in! Thanks!");
+                            $("#status").html("<p> <i> You're already logged in! Thanks! </i> </p>");
                         }
                         else {
                             FB.login();
+                            location.reload();
                         }
                     });
                 };
