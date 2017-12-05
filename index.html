@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Gender on Social Media</title>
+    <title>Gender and Social Media Research</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -44,7 +44,7 @@
                     FB.getLoginStatus(function(response) {
                         if (response.status === 'connected') {
                             console.log('Logged in.');
-                            $("#status").html("<p> <i> You're already logged in! Thanks! </i> </p>");
+                            $("#status").html("<p> <i> You're already logged in. Thanks! </i> </p>");
                         }
                         else {
                             FB.login();
@@ -71,8 +71,8 @@
             <div class="container">
                     <div class="col-md-8 col-md-offset-2">
                         <div class='main-loc-container'>
-                            <h1 class="brand-heading">Gender in Social Media </h1>
-                            <p class="intro-text"> -- A mini research project for investigating gender on Facebook. -- </p>
+                            <h1 class="brand-heading">Gender on Social Media </h1>
+                            <p class="intro-text"> A research project investigating gender on Facebook</p>
                             <div id="status">
                                 <div class="fb-login-button" data-max-rows="1" data-size="large" data-button-type="login_with" data-show-faces="false" data-auto-logout-link="true" data-use-continue-as="false"></div> 
                             </div>                
