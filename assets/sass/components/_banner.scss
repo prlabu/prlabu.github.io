@@ -536,7 +536,7 @@
 /* Banner (style3) */
 
 	.banner.style3 {
-		$image-size: 21rem;
+		$image-size: 5rem;
 		$content-size: (_size(inner) * 0.875) - $image-size - (_size(element-margin) * 1.75);
 
 		@include padding(_size(padding, default), _size(padding, default));
@@ -558,7 +558,7 @@
 			@include vendor('flex-shrink', '0');
 			width: $image-size;
 			height: $image-size;
-			border-radius: 100%;
+			// border-radius: 100%;
 			margin: 0 (_size(element-margin) * 1.75) _size(element-margin) 0;
 
 			img {
@@ -567,7 +567,7 @@
 				display: block;
 				width: 100%;
 				height: 100%;
-				border-radius: 100%;
+				// border-radius: 100%;
 			}
 		}
 
