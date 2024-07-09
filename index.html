@@ -10,6 +10,8 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
 
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-132793684-1"></script>
@@ -29,9 +31,26 @@
 				<!-- One -->
 					<section class="banner style3 orient-left content-align-center image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
 						<div class="content">
-							<h1>Latané Bullock</h1>
+							<h1 style="margin-bottom: 0;">Latané Bullock 	 </h1>
+							<p class="major"><button onclick="playAudio()"><i class="fa fa-volume-up"></i></button></p>
+
+							
+							<!-- <p class="major">'lot-neh' [ˈlɑt̪̚ˌnɛ]</p>
+							https://en.wikipedia.org/wiki/International_Phonetic_Alphabet -->
+							<!-- <p class="major"><button class="play-button" onclick="playAudio()">▶️</button></p> -->
+							
+							<audio id="nameAudio" src="./assets/latane.wav"></audio>
+
+							<script>
+								function playAudio() {
+									document.getElementById('nameAudio').play();
+								}
+							</script>
+
+							<!-- <figcaption>Listen to the T-Rex:</figcaption> -->
+							
 							<p class="major">neuroscientist, linguist, global thinker</p>
-							<p class="major">Ph.D. candidate in Speech & Hearing @<a href="https://shbtphd.hms.harvard.edu/" target="_blank">Havard Medical School</a>, previously: researcher @<a href="http://www.tandonlab.org/" target="_blank">UT Health McGovern Medical School</a>, undergrad @<a href="https://eceweb.rice.edu/people/faculty" target="_blank">Rice University</a> </p>
+							<p class="major">Ph.D. candidate in Speech & Hearing @<a href="https://shbtphd.hms.harvard.edu/" target="_blank">Harvard Medical School</a>, previously: researcher @<a href="http://www.tandonlab.org/" target="_blank">UT Health McGovern Medical School</a>, undergrad @<a href="https://eceweb.rice.edu/people/faculty" target="_blank">Rice University</a> </p>
 
 							<ul class="icons">
 								<li><a href="assets/resume.pdf" target="_blank" class="icon style2 fa-file fa-lg"><span class="label">Resume</span></a></li>
